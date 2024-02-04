@@ -1,10 +1,10 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - Sea Monster Crowdfunding
 
-Submitted by: **Your Name Here**
+Submitted by: Mariah Gonzales
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+Sea Monster Crowdfunding is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: 7 hours spent in total
 
 ## Required Features
 
@@ -17,28 +17,25 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [ ] The Our Games section has a search bar that, when the magnifying glass is clicked, allows the user to display only games who's name includes their search input. If there are none that match, a message indicates that to the user and encourages them to try another search.
+* [ ] The buttons in the Our Games section have styling implemented for their general appearance as well as when they are hovered over by the user.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/mariah70565/web102_prework/assets/150880397/d50f7261-10c0-400c-8237-ec6e8536fca6' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+[Kap](https://getkap.co/)
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Implementing the search bar was a bit difficult, as I had no experience with creating one. After doing some research, I was finally able to figure it out, and even created a magnifying glass button that enters their search input to generate their output. 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2024 Mariah Gonzales
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
