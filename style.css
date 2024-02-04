@@ -2,16 +2,18 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #303159;
+    color: #FFFFFF;
 }
-
+/* 4147ff */
 #tentacles {
     width: 50px;
 }
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background-color: #ffffff;
+    color: #000000;
     padding: 1%;
     align-items: center;
     margin-left: -10px;
@@ -21,7 +23,11 @@ body {
 
 .stats-container {
     display: flex;
+    background-color: #758190;
+    align-items: center;
 }
+
+
 
 .stats-card {
     background-color: #a8b0bc;
@@ -30,6 +36,11 @@ body {
     margin: 1%;
     width: 100%;
     text-align: center;
+}
+
+.stats-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 #num-contributions, #total-raised, #num-games {
@@ -50,6 +61,7 @@ body {
 
 .game-card {
     background-color: #FFFFFF;
+    color: black;
     padding: 1%;
     margin: 1%;
     width: 300px;
@@ -59,7 +71,7 @@ body {
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px rgb(255, 255, 255);
 }
 
 #button-container {
@@ -67,9 +79,58 @@ body {
 }
 
 button {
+    background-color: #FFFFFF;
     font-family: 'Cabin';
     border: none;
     padding: 1%;
     margin: 1%;
+    width: 170px;
+    font-size: 15px;
     border-radius: 7px;
+}
+
+/* added */
+#search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#search-bar {
+    /* margin-top: 10px; */
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+    width: 70%;
+    position: relative;
+}
+
+#search-result {
+    font-size: 30px;
+}
+
+#game-search {
+    width: 100%;
+    padding: 1%;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+#search-icon {
+    width: 23px;
+    position: absolute;
+    right: 10px;
+}
+
+#search-icon:hover {
+    cursor: pointer;
+    width: 24px;
+}
+
+/* added */
+#button-container :hover {
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #758190;
+    color: #FFFFFF;
 }
