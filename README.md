@@ -10,15 +10,15 @@ Time spent: 7 hours spent in total
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [x] The introduction section explains the background of the company and how many games remain unfunded.
+* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] The Our Games section has a search bar that, when the magnifying glass is clicked, allows the user to display only games who's name includes their search input. If there are none that match, a message indicates that to the user and encourages them to try another search.
-* [ ] The buttons in the Our Games section have styling implemented for their general appearance as well as when they are hovered over by the user.
+* [x] The Our Games section has a search bar that, when the magnifying glass is clicked, allows the user to display only games who's name includes their search input. If there are none that match, a message indicates that to the user and encourages them to try another search.
+* [x] The buttons in the Our Games section have styling implemented for their general appearance as well as when they are hovered over by the user.
 
 ## Video Walkthrough
 
